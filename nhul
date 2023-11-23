@@ -18,7 +18,7 @@ async function onCall({ message, args }) {
 
   if (args.length < 4) {
     message.send(
-      "Sai cú pháp! Hãy sử dụng: r3 [SL] [ID1] [Tên nhóm] [tag ID]"
+      "Sai cú pháp! Hãy sử dụng: r3 [SL] [ID] [Tên nhóm] [tag ID]"
     ); // Tên nhóm viết đừng cách. Ví dụ NguKiaHaha
     return;
   }
