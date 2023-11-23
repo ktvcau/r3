@@ -2,7 +2,7 @@ const config = {
   name: "r3",
   aliases: ["rb"],
   description: "Tạo box",
-  usage: "[SL] [ID1, ID2,...] [Tên nhóm] [tag ID]",
+  usage: "[SL] [ID] [Tên nhóm] [tag ID]",
   cooldown: 3,
   permissions: [2],
   credits: "XIE",
